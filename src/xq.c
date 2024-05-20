@@ -8,6 +8,12 @@
 #include "xq.h"
 #include "adlb_internal.h"
 
+xq_t *wq;
+xq_t *rq;
+xq_t *iq;
+xq_t *tq;
+xq_t *cq;
+
 xq_t *xq_create()
 {
     xq_t *xq;

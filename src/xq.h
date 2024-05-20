@@ -88,11 +88,11 @@ typedef struct cq_struct_t
 } cq_struct_t;
 
 
-xq_t *wq;
-xq_t *rq;
-xq_t *iq;
-xq_t *tq;
-xq_t *cq;
+extern xq_t *wq;
+extern xq_t *rq;
+extern xq_t *iq;
+extern xq_t *tq;
+extern xq_t *cq;
 
 xq_node_t *wq_node_create(int work_type, int work_prio, int wqseqno, int answer_rank,
                           int target_rank, int work_len, void *work_buf);
